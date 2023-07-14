@@ -6,7 +6,10 @@
 #Home{
     width: 100%;
     height: 100vh;
-    background-image: url(./picture/dark\ wood.jpg);
+    background-image: url(./picture/eFsiXhx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .navbar{
     width: 100%;
@@ -41,6 +44,11 @@
     padding: 8px;
     margin-left: 15px;
     cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.all-option .option-nav:hover{
+   background-image: url(./picture/dark\ wood.jpg);
+   color: rgba(249, 197, 10, 0.984);
 }
 .img-header{
     width: 100%;
@@ -56,7 +64,7 @@
     border-radius: 5px;
     position: absolute;
     top: 30px;
-    left:270px;
+    left:215px;
     color: rgba(249, 197, 10, 0.984);
 }
 .img-header p{
@@ -66,16 +74,16 @@
     border-radius: 5px;
     position: absolute;
     top: 90px;
-    left:200px;
+    left:140px;
     color: rgba(249, 197, 10, 0.984);
     text-transform: capitalize;
 }
-.line-head{
+.line-head-1{
     position: absolute;
-    left: 390px;
-    width: 4px;
+    left: 325px;
+    width: 7px;
     height: 30px;
-    background-color: rgb(180, 76, 8);
+    background-image: url(./picture/Screenshot_1.png);
 }
 
 .contant{
@@ -94,17 +102,9 @@
     text-transform: capitalize;
     border-radius: 5px;
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     margin-bottom: 20px;
-}
-.Categorise h2,p{
-    background-image: url(./picture/bar.png);
-    color: rgba(249, 197, 10, 0.984);
-    text-transform: capitalize;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 40px;
-    margin: 10px;
+    box-shadow: 100px 12px 13px #000;
 }
 .cards{
     width: 50%;
@@ -121,11 +121,20 @@
     border-radius: 15px;
     overflow: hidden;
     background-image:url(./picture/bar.png);
+    transition: .5s ease-out;
+    box-shadow: 20px 12px 13px #000;
 }
 .Type-card img{
 width: 100%;
 height: 70%;
 }
+
+.Type-card:hover{
+    transform: scale(1.1);    
+    }
+    .Type-card:hover img{
+        opacity: 0.7;   
+    }
 button{
     padding: 13px;
     margin: 5px 0 0 43px;
@@ -136,5 +145,173 @@ button{
     text-transform: capitalize;
     font-size: 15px;
     font-weight: bolder;
+    cursor: pointer;
+    transition: .4s ease-out;
 }
-
+button:hover{
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    letter-spacing: 1px;
+}
+.line-head-2{
+    position: absolute;
+    top :265px;
+    left: 100px;
+    width: 7px;
+    height: 75px;
+    background-image: url(./picture/Screenshot_1.png); 
+}
+.line-head-3{
+    position: absolute;
+    top :265px;
+    left: 500px;
+    width: 7px;
+    height: 75px;
+    background-image: url(./picture/Screenshot_1.png); 
+}
+/*========================== layout Home Page ================================*/
+#shopping-cart{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./picture/eFsiXhx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title{
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 60px;
+    width: 40%;  
+    position: absolute;
+    top:30px;
+    left: 100px;
+    box-shadow: 100px 12px 13px #000;
+}
+.line-1{
+    position: absolute;
+    top: -25px;
+    left: 100px;
+    width: 7px;
+    height: 40px;
+    background-image: url(./picture/Screenshot_1.png);
+}
+.line-2{
+    position: absolute;
+    top: -25px;
+    left: 500px;
+    width: 7px;
+    height: 40px;
+    background-image: url(./picture/Screenshot_1.png);
+}
+.books-added{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 20px;
+} 
+.sale-book{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .4s ease-in;
+    box-shadow: 10px 12px 13px #000;
+    cursor: pointer;
+}
+.sale-book img{
+    width: 100%;
+    height: 80%;
+}
+.sale-book p{
+    background-image: url(./picture/eFsiXhx.jpg);
+    width: 100%;
+    height: 20%;
+    font-size: 20px;
+    color:rgba(249, 197, 10, 0.984); 
+    text-align: center;
+}
+.sale-book:hover{
+    transform: scale(1.1);    
+    }
+    .sale-book:hover img{
+        opacity: 0.7;   
+    }
+/*========================= shopping cart layout ==========================*/
+#book-information{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./picture/eFsiXhx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.page-info{
+    display: flex;
+    justify-content: space-between;
+}
+.image-book{
+    width: 30%;
+    height: 80%;
+    border-radius: 25px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    overflow: hidden;
+    transition: .4s ease-in-out;
+}
+.image-book img{
+    width: 100%;
+}
+.image-book:hover{
+    transform: scale(1.1);    
+    }
+    .image-book:hover img{
+        opacity: 0.9;   
+    }
+.Book-description{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background-image:url(./picture/Screenshot_1.png);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 20px 12px 13px #000;
+}
+.Book-description h1{
+    height: 70px;
+    text-align: center;
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.line-3{
+    position: absolute;
+    right: 80px;
+    width: 7px;
+    height: 60px;
+    background-image: url(./picture/Screenshot_1.png);
+}
+.line-4{
+    position: absolute;
+    right: 700px;
+    width: 7px;
+    height: 60px;
+    background-image: url(./picture/Screenshot_1.png);   
+}
+.Book-description p{
+    font-size: 30px;
+    font-weight: 900;
+    color:rgb(75, 46, 4);
+    
+}
