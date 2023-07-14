@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+#Home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./picture/dark\ wood.jpg);
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background-image: url(./picture/bar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+.word-logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(249, 197, 10, 0.984);
+}
+.word-logo span{
+    color: rgba(196, 224, 11, 0.984);
+}
+.all-option{
+    margin-top: 20px;
+}
+.all-option .option-nav{
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    background-image: url(./picture/Screenshot_1.png);
+    color:rgb(75, 46, 4);
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.img-header{
+    width: 100%;
+    height: 200px;
+    background-image: url(./picture/OIP.jpg);
+    background-position:160px;
+    position: relative;
+}
+.img-header h2{
+    background-image: url(./picture/bar.png);
+    font-size: 50px;
+    font-weight: bolder;
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    left:270px;
+    color: rgba(249, 197, 10, 0.984);
+}
+.img-header p{
+    background-image: url(./picture/bar.png);
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    left:200px;
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+}
+.line-head{
+    position: absolute;
+    left: 390px;
+    width: 4px;
+    height: 30px;
+    background-color: rgb(180, 76, 8);
+}
+
+.contant{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+.Categorise{
+    width: 30%;
+    margin-top: 70px;
+    font-weight: bolder;
+}
+.Categorise h1{
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.Categorise h2,p{
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.cards{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 10px;
+}
+.Type-card{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image:url(./picture/bar.png);
+}
+.Type-card img{
+width: 100%;
+height: 70%;
+}
+button{
+    padding: 13px;
+    margin: 5px 0 0 43px;
+    border-radius: 5px;
+    border: none;
+    background-image: url(./picture/Screenshot_1.png);
+    color:rgb(75, 46, 4);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
