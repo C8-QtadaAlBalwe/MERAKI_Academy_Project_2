@@ -117,7 +117,7 @@
     text-transform: capitalize;
     border-radius: 5px;
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 20px;
     box-shadow: 100px 12px 13px #000;
 }
@@ -128,6 +128,7 @@
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 10px;
+    margin-bottom: 80px;
 }
 .Type-card{
     width: 250px;
@@ -418,6 +419,19 @@ button:hover{
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.title-2{
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 60px;
+    width: 40%;  
+    position: absolute;
+    top:30px;
+    left: 100px;
+    box-shadow: 100px 12px 13px #000;
 }
 .card{
     background-image: url(./picture/eFsiXhx.jpg);
