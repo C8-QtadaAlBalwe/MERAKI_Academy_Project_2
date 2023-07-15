@@ -32,6 +32,20 @@
 .all-option{
     margin-top: 20px;
 }
+.option-nav-1{
+    background-image: url(./picture/dark\ wood.jpg);
+    color: rgba(249, 197, 10, 0.984);
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+} 
 .all-option .option-nav{
     display: inline;
     text-decoration: none;
@@ -317,6 +331,19 @@ button:hover{
     color:rgb(75, 46, 4);
     
 }
+.page-info button{
+    position: absolute;
+    right: 120px;
+    top: 716px;
+}
+.line-button{
+    position: absolute;
+    top: 670px;
+    right: 180px;
+    width: 7px;
+    height: 50px;
+    background-image: url(./picture/Screenshot_1.png);   
+}
 /*========================== books-of-categorises layout ================================*/
 
 #books-of-categorises{
@@ -449,7 +476,6 @@ button:hover{
 color:rgb(75, 46, 4);
 width: 100%;
 text-align: center;
-
 font-size: 40px;
 background-image: url(./picture/Screenshot_1.png); 
 border-radius: 20px; 
@@ -474,6 +500,7 @@ outline: none;
     color: rgba(249, 197, 10, 0.984); 
     font-weight: 300;
     font-size: 15px; 
+    text-transform: capitalize;
 }
 .btnn{
     width: 240px;
@@ -513,7 +540,7 @@ transition: 0.4s ease;
 }
 .icons  i:hover{
 color: #fff; 
-transform: scale(1.6);   
+transform: scale(1.3);   
 }
 .line-5{
     position: absolute;
