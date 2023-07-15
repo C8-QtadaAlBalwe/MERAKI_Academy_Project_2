@@ -24,25 +24,15 @@ home.append(div_2ImgHeader);
 div_2ImgHeader.append(line_head_1);
 div_2ImgHeader.append(h2_head);
 div_2ImgHeader.append(p_head);
-
-
-
 //===================================================//
 /*============== img head ===========================*/
 const div_3Contant =$('<div class="contant"></div>')
 const categorises=$('<div class="Categorise"></div>')
-const line_head_2=$('<div class="line-head-2"></div>')
-const line_head_3=$('<div class="line-head-3"></div>')
 const h1_contant=$('<h1>Categorises</h1>')
 //============= appends =======================//
 home.append(div_3Contant);
-div_3Contant.append(categorises);
-categorises.append(line_head_2);
-categorises.append(line_head_3);
+div_3Contant.append(categorises);;
 categorises.append(h1_contant);
-
-
-
 //====================================================//
 /*================ cards ============================*/
 const div_4Cards=$('<div class="cards"></div>')
@@ -100,7 +90,7 @@ const icons=$(' <div class="icons"></div>')
 const a_icons=$('<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a><a href="https://accounts.google.com/"><i class="fab fa-google"></i></a><a href="https://signup.live.com/"><i class="fab fa-skype"></i></a><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a> ')
 
 //============= appends =======================//
-home.append(login);
+body.append(login);
 login.append(line_5);
 login.append(line_6);
 login.append(form);
@@ -146,8 +136,8 @@ body.append(contact_us);
 contact_us.append(title);
 title.append(line_1);
 title.append(line_2);
-title.append(h1_contant);
-h1_contant.append(button_contact_us);
+title.append(h1_title);
+h1_title.append(button_contact_us);
 
 contact_us.append(card1);
 card1.append(icon_card_1);
@@ -166,3 +156,29 @@ card3.append(icon_card_3);
 card3.append(info_card_3);
 info_card_3.append(h3_info_3);
 info_card_3.append(p_info_3);
+//===========================================================//
+//=========================== book-information  =============//
+const book_information=$('<section id="book-information"></div>');
+const page_info=$('<div class="page-info"></div>')
+const image_book=$('<div class="image-book"></div>')
+const img_info=$(' <img src="./picture/chimcal book -2.jpg">')
+const line_3=$('<div class="line-3"></div>')
+const line_4=$('<div class="line-4"></div>')
+const Book_description=$('<div class="Book-description"></div>')
+const h1_book_description=$('<h1>Book Discription</h1>')
+const p_book_description=$('<P>Lorem, ipsum dolor sit amet consectetu</p>')
+const line_button=$('<div class="line-button"></div>')
+const button_backToHome=$('<button>Back To Home</button>')
+
+//============= appends =======================//
+body.append(book_information);
+book_information.append(page_info);
+page_info.append(image_book);
+image_book.append(img_info);
+page_info.append(line_3);
+page_info.append(line_4);
+page_info.append(Book_description);
+book_information.append(h1_book_description);
+book_information.append(p_book_description);
+page_info.append(line_button);
+page_info.append(button_backToHome);
