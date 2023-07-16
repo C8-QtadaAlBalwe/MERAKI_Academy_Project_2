@@ -98,11 +98,11 @@ const form=$('<div class="form"></div>')
 const h2_form=$('<h2>Login Here</h2>')
 const input_email=$(' <input type="email" name="email" placeholder="Enter Email Here" required>')
 const input_password=$('<input type="password" name="" placeholder="Enter password Here" required>')
-const input_credit=$('<input type="password" name="email" placeholder="Enter number of credit card" required  min="6" max="6" >')
+const input_credit=$('<input type="password" name="email" placeholder="00-000-0000" required  min="6" max="6" >')
 const button_form=$(' <button class="btnn">Login</button>')
 const p_form=$('<p class="liw"> login in with</p>')
 const icons=$(' <div class="icons"></div>')
-const a_icons=$('<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a><a href="https://accounts.google.com/"><i class="fab fa-google"></i></a><a href="https://signup.live.com/"><i class="fab fa-skype"></i></a><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a> ')
+const a_icons=$('<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a> <a href="https://www.instagram.com/"target="_blank"><i class="fab fa-instagram"></i></a><a href="https://accounts.google.com/"target="_blank"><i class="fab fa-google"></i></a><a href="https://signup.live.com/" target="_blank"><i class="fab fa-skype"></i></a><a href="https://www.linkedin.com/"target="_blank"><i class="fab fa-linkedin"></i></a> ')
 //============= appends =======================//
 body.append(login);
 login.append(line_5);
@@ -121,7 +121,7 @@ login.hide()
 //===========================================================//
 //======================== back functions ===================//
 //===========================================================//
-button_form.on('click',gotobay)
+button_form.on('click',checkInput)
 
 //=========================================================================================//
                          //contact us//
@@ -291,11 +291,6 @@ function goToInformationBook(){
 function gotologin(){
     bookOfCategorises.hide(700,'linear','linear');
     login.show(700);
-}
-function gotobay(){
-    login.hide(700,'linear','linear')
-    shoppingCart.show(700,'linear','linear');
-    alert('The book has been purchased. Thank you for using our library')
 }
 function backToHome(){
     book_information.hide(700,'linear','linear');
@@ -569,14 +564,15 @@ const HistoricalArry= [
     },
 ]
 
+// كيف ممكن اصل نوع الاراي بواسطة الفور 
 const categoresesBooks=function(e){
     if(e.target.id == 1){
         h1_title_4.text(HistoricalArry[0].title)
         HistoricalArry[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}">
-            <button onclick="goToInformationBook">Inform</button>
-            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            <button onclick="goToInformationBook()">Inform</button>
+            <button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>
             </div>`)
             books_2.append(item_book);
 
@@ -586,8 +582,8 @@ const categoresesBooks=function(e){
         gamesArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}">
-            <button onclick="goToInformationBook">Inform</button>
-            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            <button onclick="goToInformationBook()">Inform</button>
+            <button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>
             </div>`)
             books_2.append(item_book);
 
@@ -597,8 +593,8 @@ const categoresesBooks=function(e){
         chimicalArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}">
-            <button onclick="goToInformationBook">Inform</button>
-            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            <button onclick="goToInformationBook()">Inform</button>
+            <button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>
             </div>`)
             books_2.append(item_book);
 
@@ -608,8 +604,8 @@ const categoresesBooks=function(e){
         artsArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}">
-            <button onclick="goToInformationBook">Inform</button>
-            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            <button onclick="goToInformationBook()">Inform</button>
+            <button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>
             </div>`)
             books_2.append(item_book);
 
@@ -622,3 +618,11 @@ button1.on('click',categoresesBooks)
 button2.on('click',categoresesBooks)
 button3.on('click',categoresesBooks)
 button4.on('click',categoresesBooks)
+
+function checkInput(){
+    if(input_email.val()!=="" &&input_password.val()!=="" && input_credit.val().length > 6){
+        login.hide(700,'linear','linear')
+        shoppingCart.show(700,'linear','linear');
+        alert('The book has been purchased. Thank you for using our library')
+    }else{alert("Try Again Chick On your Data")}
+}
