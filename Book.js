@@ -178,7 +178,49 @@ image_book.append(img_info);
 page_info.append(line_3);
 page_info.append(line_4);
 page_info.append(Book_description);
-book_information.append(h1_book_description);
-book_information.append(p_book_description);
+Book_description.append(h1_book_description);
+Book_description.append(p_book_description);
 page_info.append(line_button);
 page_info.append(button_backToHome);
+
+//=========================================================================================//
+                         //shopping cart//
+//=========================================================================================//
+const shoppingCart=$('<section id="shopping-cart"></section>')
+const title_3=$('<div class="title-3"><div class="line-1"></div><div class="line-2"></div></div>')
+const h1_title_3=$('<h1>Shopping Cart</h1>')
+const books_add=$('<div class="books-added"></div>')
+const sale_book =$('<div class="sale-book"></div>')
+const img_sale_book=$('<img src="./picture/art book -1.jpg">')
+const p_sale_book=$('<p>price:100$</p>')
+
+//============= appends =======================//
+body.append(shoppingCart);
+shoppingCart.append(title_3);
+title_3.append(h1_title_3);
+shoppingCart.append(books_add);
+books_add.append(sale_book);
+sale_book.append(img_sale_book);
+sale_book.append(p_sale_book);
+
+//=========================================================================================//
+                         //books of categoreses//
+//=========================================================================================//
+const bookOfCategorises=$('<section id="books-of-categorises"></section>')
+const title_4=$('<div class="title-4"><div class="line-1"></div><div class="line-2"></div></div>')
+const h1_title_4=$('<h1>Historical</h1>')
+const books_2=$('<div class="books"><div>')
+const item_book=$('<div class="item-book">')
+const img_item_book=$(' <img src="./picture/art book -1.jpg">')
+const button_bay=$('<button>BAY<i class="fas fa-shopping-cart"></i></button>')
+const button_info=$('<button>Inform</button>')
+
+//============= appends =======================//
+body.append(bookOfCategorises);
+bookOfCategorises.append(title_4);
+title_4.append(h1_title_4);
+bookOfCategorises.append(books_2);
+books_2.append(item_book);
+item_book.append(img_item_book);
+item_book.append(button_bay);
+item_book.append(button_info);

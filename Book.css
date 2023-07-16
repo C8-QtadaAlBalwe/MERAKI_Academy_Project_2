@@ -303,6 +303,19 @@ button:hover{
     overflow: hidden;
     box-shadow: 20px 12px 13px #000;
 }
+.title-3{
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 60px;
+    width: 40%;  
+    position: absolute;
+    top:30px;
+    left: 100px;
+    box-shadow: 100px 12px 13px #000;
+}
 .Book-description h1{
     height: 70px;
     text-align: center;
@@ -406,6 +419,20 @@ button:hover{
     background-image: url(./picture/bar.png);
     color: rgba(249, 197, 10, 0.984);
     letter-spacing: 1px;
+}
+
+.title-4{
+    background-image: url(./picture/bar.png);
+    color: rgba(249, 197, 10, 0.984);
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 60px;
+    width: 40%;  
+    position: absolute;
+    top:30px;
+    left: 100px;
+    box-shadow: 100px 12px 13px #000;
 }
 /*========================= contact us layout ================================*/
 #contact-us{
