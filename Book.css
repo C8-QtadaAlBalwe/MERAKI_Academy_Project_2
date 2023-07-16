@@ -106,11 +106,28 @@
    justify-content: space-around;
    width: 100%;
 }
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(5deg);}
+    50%{transform: rotate(-3deg)}
+    100%{transform: rotate(7deg);}
+}
+
 .Categorise{
     width: 30%;
     margin-top: 70px;
     font-weight: bolder;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
 }
+
 .Categorise h1{
     background-image: url(./picture/bar.png);
     color: rgba(249, 197, 10, 0.984);
@@ -126,9 +143,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .Type-card{
     width: 250px;
@@ -432,7 +449,7 @@ button:hover{
     position: absolute;
     top:30px;
     left: 100px;
-    box-shadow: 100px 12px 13px #000;
+    box-shadow: 100px 12px 13px #000;  
 }
 /*========================= contact us layout ================================*/
 #contact-us{
@@ -588,12 +605,18 @@ transform: scale(1.3);
     right: 630px;
     width: 13px;
     height: 100px;
-    background-image: url(./picture/Screenshot_1.png);   
+    background-image: url(./picture/Screenshot_1.png);
+    box-shadow: 50px 12px 13px #000;   
 }
 .line-6{
     position: absolute;
     right: 900px;
     width: 13px;
     height: 100px;
-    background-image: url(./picture/Screenshot_1.png);   
+    background-image: url(./picture/Screenshot_1.png);
+    box-shadow: 50px 12px 13px #000;   
+}
+
+.aa{
+    background-image: url();
 }
