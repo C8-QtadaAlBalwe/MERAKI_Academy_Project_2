@@ -2,7 +2,6 @@ const body=$('body');
 //=========================================================================================//
                          //home page//
 //=========================================================================================//
-
 const home=$('<section id="Home"></section>');
 const navBar=$('<div class="navbar"></div>');
 const div_1Navbar=$('<div class="word-logo">Shop<Span>Store</Span></div>');
@@ -22,7 +21,6 @@ unorderList.append(listItem_2);
 unorderList.append(listItem_3);
 unorderList.append(listItem_4);
 unorderList.append(listItem_5);
-
 //===========================================================//
 //======================== back functions ===================//
 //===========================================================//
@@ -30,6 +28,7 @@ listItem_2.on('click',goToShopping)
 listItem_3.on('click',goToContactUs)
 listItem_4.on('click',modeWhite)
 listItem_5.on('click',modeDark,)
+
 //====================================================//
 /*============== navbar =============================*/
 const div_2ImgHeader=$('<div class="img-header"></div>')
@@ -41,6 +40,7 @@ home.append(div_2ImgHeader);
 div_2ImgHeader.append(line_head_1);
 div_2ImgHeader.append(h2_head);
 div_2ImgHeader.append(p_head);
+
 //===================================================//
 /*============== img head ===========================*/
 const div_3Contant =$('<div class="contant"></div>')
@@ -50,6 +50,7 @@ const h1_contant=$('<h1>Categorises</h1>')
 home.append(div_3Contant);
 div_3Contant.append(categorises);;
 categorises.append(h1_contant);
+
 //====================================================//
 /*================ cards ============================*/
 const div_4Cards=$('<div class="cards"></div>')
@@ -69,10 +70,8 @@ const button3=$('<button id="3">Chemical Categorise</button>')
 const TypeCard4=$('<div class="Type-card"></div>')
 const imgCard4=$('<img src="./picture/th.jpg">')
 const button4=$('<button id="4">Arts Categorise</button>')
-
 //============= appends =======================//
 div_3Contant.append(div_4Cards);
-
 div_4Cards.append(TypeCard1);
 div_4Cards.append(TypeCard2);
 div_4Cards.append(TypeCard3);
@@ -89,12 +88,6 @@ TypeCard3.append(button3);
 
 TypeCard4.append(imgCard4);
 TypeCard4.append(button4);
-
-//===========================================================//
-//======================== back functions ===================//
-//===========================================================//
-button1.on('click',goToCategerisesFake)
-
 //=========================================================================================//
                          //login page//
 //=========================================================================================//
@@ -129,6 +122,7 @@ login.hide()
 //======================== back functions ===================//
 //===========================================================//
 button_form.on('click',gotobay)
+
 //=========================================================================================//
                          //contact us//
 //=========================================================================================//
@@ -190,6 +184,7 @@ contact_us.hide()
 //======================== back functions ===================//
 //===========================================================//
 button_contact_us.on('click',backToHome)
+
 //===========================================================//
 //=========================== book-information  =============//
 //===========================================================//
@@ -218,11 +213,11 @@ page_info.append(line_button);
 page_info.append(button_backToHome);
 //================ other layout css ==================================//
 book_information.hide()
-
 //===========================================================//
 //======================== back functions ===================//
 //===========================================================//
-button_backToHome.on('click',backToHome)
+button_backToHome.on('click',backToHome);
+
 //=========================================================================================//
                          //shopping cart//
 //=========================================================================================//
@@ -244,12 +239,12 @@ sale_book.append(img_sale_book);
 sale_book.append(p_sale_book);
 sale_book.append(button_undo);
 //================ other layout css ==================================//
-shoppingCart.hide()
-
+shoppingCart.hide();
 //===========================================================//
 //======================== back functions ===================//
 //===========================================================//
-sale_book.on('click',goToInformationBook)
+sale_book.on('click',goToInformationBook);
+
 //=========================================================================================//
                          //books of categoreses//
 //=========================================================================================//
@@ -257,27 +252,19 @@ const bookOfCategorises=$('<section id="books-of-categorises"></section>')
 const title_4=$('<div class="title-4"><div class="line-1"></div><div class="line-2"></div></div>')
 const h1_title_4=$('<h1>Historical</h1>')
 const books_2=$('<div class="books"><div>')
-const item_book=$('<div class="item-book">')
-const img_item_book=$(' <img src="./picture/art book -1.jpg">')
-const button_bay=$('<button>BAY<i class="fas fa-shopping-cart"></i></button>')
-const button_info=$('<button>Inform</button>')
 
 //============= appends =======================//
 body.append(bookOfCategorises);
 bookOfCategorises.append(title_4);
 title_4.append(h1_title_4);
 bookOfCategorises.append(books_2);
-books_2.append(item_book);
-item_book.append(img_item_book);
-item_book.append(button_bay);
-item_book.append(button_info);
 //================ other layout css ==================================//
 bookOfCategorises.hide()
 //===========================================================//
 //======================== back functions ===================//
 //===========================================================//
-button_bay.on('click',gotologin)
-button_info.on('click',goToInformationBook)
+
+
 //=============================================================//
 //====================== Move  functions ======================//
 //=============================================================//
@@ -305,10 +292,6 @@ function gotologin(){
     bookOfCategorises.hide(700,'linear','linear');
     login.show(700);
 }
-function goToCategerisesFake(){
-    home.hide(700,'linear','linear');
-    bookOfCategorises.show(700,'linear','linear')
-}
 function gotobay(){
     login.hide(700,'linear','linear')
     shoppingCart.show(700,'linear','linear');
@@ -330,252 +313,312 @@ function modeDark(){
     home.css('background', 'url("./picture/eFsiXhx.jpg")')
 }
 
-
-let categoreses= [
+//========###########============###### Array of books ######==========###########=================//
+const HistoricalArry= [
     {   
         title:"Historical",
         id:"1",
-        books: [
+    },
+        {books: [
             {
                 id: 0,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history book -1.jpg",
+                imageSrc: "./picture/history book -1.jpg",
                 description: "some description about book and author",
                 price: 22+"$",
             },
             {
                 id: 1,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history book -2.jpg",
+                imageSrc: "./picture/history book -2.jpg",
                 description: "some description about book and author",
                 price: 15+"$",
             },
             {
                 id: 2,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history-3.jpg",
+                imageSrc: "./picture/history-3.jpg",
                 description: "some description about book and author",
                 price: 34 +"$",
             },
             {
                 id: 3,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history-4.jpg",
+                imageSrc: "./picture/history-4.jpg",
                 description: "some description about book and author",
                 price: 55 +"$",
             },
             {
                 id: 4,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history-5jpg.jpg",
+                imageSrc: "./picture/history-5jpg.jpg",
                 description: "some description about book and author",
                 price: 33,
             },
             {
                 id: 5,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history-6.jpg",
+                imageSrc: "./picture/history-6.jpg",
                 description: "some description about book and author",
                 price: 22 +"$",
             },
             {
                 id: 6,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history-7.jpg",
+                imageSrc: "./picture/history-7.jpg",
                 description: "some description about book and author",
                 price: 64 +"$",
             },
             {
                 id: 7,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history-8.jpg",
+                imageSrc: "./picture/history-8.jpg",
                 description: "some description about book and author",
                 price: 23 +"$",
             },
             {
                 id: 8,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\historical book\history-9.jpg",
+                imageSrc: "./picture/history-9.jpg",
                 description: "some description about book and author",
                 price: 11 +"$",
             },
         ]
+    }
+    ]
+
+    const gamesArray=[
+    {
+    title:"games",
+    id:"2",
     },
-    {   
-        title:"games",
-        id:"2",
-        books: [
+        {books: [
             {
                 id: 0,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games book -1.jpg",
+                imageSrc: "./picture/games book -1.jpg",
                 description: "some description about book and author",
                 price: 10 +"$",
             },
             {
                 id: 1,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games book -2.jpg",
+                imageSrc: "./picture/games book -2.jpg",
                 description: "some description about book and author",
                 price: 5 +"$",
             },
             {
                 id: 2,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games-3.jpg",
+                imageSrc: "./picture/games-3.jpg",
                 description: "some description about book and author",
                 price: 9 +"$",
             },
             {
                 id: 3,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games-4.jpg",
+                imageSrc: "./picture/games-4.jpg",
                 description: "some description about book and author",
                 price: 67 +"$",
             },
             {
                 id: 4,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games-5.jpg",
+                imageSrc: "./picture/games-5.jpg",
                 description: "some description about book and author",
                 price: 55 +"$",
             },
             {
                 id: 5,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games-6.webp",
+                imageSrc: "./picture/games-6.webp",
                 description: "some description about book and author",
                 price: 45 +"$",
             },
             {
                 id: 6,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games-7.jpg",
+                imageSrc: "./picture/games-7.jpg",
                 description: "some description about book and author",
                 price: 34 +"$",
             },
             {
                 id: 7,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games-8.png",
+                imageSrc: "./picture/games-8.png",
                 description: "some description about book and author",
                 price: 43 +"$",
             },
             {
                 id: 8,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\games book\games-9.jpg",
+                imageSrc: "./picture/games-9.jpg",
                 description: "some description about book and author",
                 price: 23 +"$",
             },
-            
-           
-        ]
-    },
-    {   
+        ]}
+    ]
+    const chimicalArray=[   
+        {
         title:"chimical",
         id:"3",
-        books: [
+        },
+        {books: [
             {
                 id: 0,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimcal book  -1.jpg",
+                imageSrc: "./picture/chimcal book  -1.jpg",
                 description: "some description about book and author",
                 price: 27 +"$",
             },
             {
                 id: 1,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimcal book -2.jpg",
+                imageSrc: "./picture/chimcal book -2.jpg",
                 description: "some description about book and author",
                 price: 14 +"$",
             },
             {
                 id: 2,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimical-3.jpg",
+                imageSrc: "./picture/chimical-3.jpg",
                 description: "some description about book and author",
                 price: 37+"$",
             },
             {
                 id: 3,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimical-4.jpg",
+                imageSrc: "./picture/chimical-4.jpg",
                 description: "some description about book and author",
                 price: 26 +"$",
             },
             {
                 id: 4,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimical-5.jpg",
+                imageSrc: "./picture/chimical-5.jpg",
                 description: "some description about book and author",
                 price: 24 +"$",
             },
             {
                 id: 5,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimical-6.jpg",
+                imageSrc: "./picture/chimical-6.jpg",
                 description: "some description about book and author",
                 price: 65 +"$",
             },
             {
                 id: 6,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimical-7.jpg",
+                imageSrc: "./picture/chimical-7.jpg",
                 description: "some description about book and author",
                 price: 45 +"$",
             },
             {
                 id: 7,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimical-8.jpg",
+                imageSrc: "./picture/chimical-8.jpg",
                 description: "some description about book and author",
                 price: 52 +"$",
             },
             {
                 id: 8,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\chimical books\chimical-9.jpg",
+                imageSrc: "./picture/chimical-9.jpg",
                 description: "some description about book and author",
                 price:15 +"$",
             },
-            
-           
         ]
-    },
-    {   
+    }
+    ]
+    const artsArray=[ 
+        { 
         title:"Arts",
         id:"4",
+        },
+        {
         books: [
             {
                 id: 0,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\art book -1.jpg",
+                imageSrc: "./picture/art book -1.jpg",
                 description: "some description about book and author",
                 price: 22 +"$",
             },
             {
                 id: 1,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\art-4.jpg",
+                imageSrc: "./picture/art-4.jpg",
                 description: "some description about book and author",
                 price: 24 +"$",
             },
             {
                 id: 2,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\arts-3.jpg",
+                imageSrc: "./picture/arts-3.jpg",
                 description: "some description about book and author",
                 price: 53 +"$",
             },
             {
                 id: 3,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\arts-5.webp",
+                imageSrc: "./picture/arts-5.webp",
                 description: "some description about book and author",
                 price: 13+"$",
             },
             {
                 id: 4,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\arts-6.webp",
+                imageSrc: "./picture/arts-6.webp",
                 description: "some description about book and author",
                 price: 34 +"$",
             },
             {
                 id: 5,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\arts-7.webp",
+                imageSrc: "./picture/arts-7.webp",
                 description: "some description about book and author",
                 price: 32 +"$",
             },
             {
                 id: 6,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\arts-8.jpg",
+                imageSrc: "./picture/arts-8.jpg",
                 description: "some description about book and author",
                 price: 13 +"$",
             },
             {
                 id: 7,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\arts-9.jpg",
+                imageSrc: "./picture/arts-9.jpg",
                 description: "some description about book and author",
                 price: 12+"$",
             },
             {
                 id: 8,
-                imageSrc: "C:\Users\QTADA\Desktop\MERAKI_Academy\Projects\MERAKI_Academy_Project_2\picture\books array\arts books\book art-2.webp",
+                imageSrc: "./picture/book art-2.webp",
                 description: "some description about book and author",
                 price: 9 +"$",
             },
             
-           
         ]
     },
 ]
+
+const categoresesBooks=function(e){
+    if(e.target.id == 1){
+        h1_title_4.text(HistoricalArry[0].title)
+        HistoricalArry[1].books.forEach((book,i) =>{
+            const item_book=$(`<div class="item-book">
+            <img src="${book.imageSrc}">
+            <button onclick="goToInformationBook">Inform</button>
+            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            </div>`)
+            books_2.append(item_book);
+
+        }
+    )}else if(e.target.id == 2){
+        h1_title_4.text(gamesArray[0].title)
+        gamesArray[1].books.forEach((book,i) =>{
+            const item_book=$(`<div class="item-book">
+            <img src="${book.imageSrc}">
+            <button onclick="goToInformationBook">Inform</button>
+            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            </div>`)
+            books_2.append(item_book);
+
+        }
+    )}else if(e.target.id == 3){
+        h1_title_4.text(chimicalArray[0].title)
+        chimicalArray[1].books.forEach((book,i) =>{
+            const item_book=$(`<div class="item-book">
+            <img src="${book.imageSrc}">
+            <button onclick="goToInformationBook">Inform</button>
+            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            </div>`)
+            books_2.append(item_book);
+
+        }
+    )}else if(e.target.id == 4){
+        h1_title_4.text(artsArray[0].title)
+        artsArray[1].books.forEach((book,i) =>{
+            const item_book=$(`<div class="item-book">
+            <img src="${book.imageSrc}">
+            <button onclick="goToInformationBook">Inform</button>
+            <button onclick="gotologin">BAY<i class="fas fa-shopping-cart"></i></button>
+            </div>`)
+            books_2.append(item_book);
+
+        }
+    )}
+    home.hide(700)
+    bookOfCategorises.show(700)
+}
+button1.on('click',categoresesBooks)
+button2.on('click',categoresesBooks)
+button3.on('click',categoresesBooks)
+button4.on('click',categoresesBooks)
