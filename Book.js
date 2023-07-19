@@ -443,18 +443,14 @@ button_contact_us.on('click',backToHome)
 //=========================== book-information  =============//
 //===========================================================//
 const book_information=$('<section id="book-information"></div>');
-
-const line_button=$('<div class="line-button"></div>')
-const button_backToHome=$('<button>Back to Home</button>')
 //============= appends =======================//
 body.append(book_information);
-
 //================ other layout css ==================================//
 book_information.hide()
 //===========================================================//
 //======================== back functions ===================//
 //===========================================================//
-button_backToHome.on('click',backToHome);
+
 
 //=========================================================================================//
                          //shopping cart//
@@ -539,9 +535,12 @@ function goToInformationBook_H(e){
     <h1>Book Discription</h1>
     <P>${HistoricalArry[1].books[e.target.id].description}</p>
     </div>
+    <div class="line-button"></div>
     </div>`)
-    
+    const button_backToHome=$('<button>Back to Home</button>')
     book_information.append(page_info)
+    page_info.append(button_backToHome)
+    button_backToHome.on('click',backToHome);
     }
     function goToInformationBook_G(e){
         bookOfCategorises.hide(700,'linear','linear');
@@ -556,9 +555,12 @@ function goToInformationBook_H(e){
         <h1>Book Discription</h1>
         <P>${gamesArray[1].books[e.target.id].description}</p>
         </div>
+        <div class="line-button"></div>
         </div>`)
-        
+        const button_backToHome=$('<button>Back to Home</button>')
         book_information.append(page_info)
+        page_info.append(button_backToHome)
+        button_backToHome.on('click',backToHome);
     }
     function goToInformationBook_CH(e){
             bookOfCategorises.hide(700,'linear','linear');
@@ -573,11 +575,15 @@ function goToInformationBook_H(e){
             <h1>Book Discription</h1>
             <P>${chimicalArray[1].books[e.target.id].description}</p>
             </div>
+            <div class="line-button"></div>
             </div>`)
-            
+            const button_backToHome=$('<button>Back to Home</button>')
             book_information.append(page_info)
+            page_info.append(button_backToHome)
+            button_backToHome.on('click',backToHome);
     }
     function goToInformationBook_A(e){
+                bookOfCategorises.hide(700,"linear",'linear')
                 book_information.show(700,'linear','linear');
                 const page_info=$(`<div class="page-info">
                 <div class="image-book">
@@ -589,9 +595,12 @@ function goToInformationBook_H(e){
                 <h1>Book Discription</h1>
                 <P>${artsArray[1].books[e.target.id].description}</p>
                 </div>
+                <div class="line-button"></div>
                 </div>`)
-                
+                const button_backToHome=$('<button>Back to Home</button>')
                 book_information.append(page_info)
+                page_info.append(button_backToHome)
+                button_backToHome.on('click',backToHome);
     }
                 
     
