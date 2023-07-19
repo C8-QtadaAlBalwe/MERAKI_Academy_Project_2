@@ -627,6 +627,7 @@ function addToShoppingCart_H(e){
     shoppingCart.append(books_add);
     bookOfCategorises.hide(700,'linear','linear');
     login.show(700);
+    alert(`An amount will be deducted ${HistoricalArry[1].books[e.target.id].price} from your account to review your account `)
 }
 function addToShoppingCart_G(e){
     const books_add=$(`<div class="books-added">
@@ -638,6 +639,7 @@ function addToShoppingCart_G(e){
     shoppingCart.append(books_add);
     bookOfCategorises.hide(700,'linear','linear');
     login.show(700);
+    alert(`An amount will be deducted ${HistoricalArry[1].books[e.target.id].price} from your account to review your account `)
 }
 function addToShoppingCart_CH(e){
     const books_add=$(`<div class="books-added">
@@ -649,6 +651,7 @@ function addToShoppingCart_CH(e){
     shoppingCart.append(books_add);
     bookOfCategorises.hide(700,'linear','linear');
     login.show(700);
+    alert(`An amount will be deducted ${HistoricalArry[1].books[e.target.id].price} from your account to review your account `)
 }
 function addToShoppingCart_A(e){
     const books_add=$(`<div class="books-added">
@@ -660,6 +663,7 @@ function addToShoppingCart_A(e){
     shoppingCart.append(books_add);
     bookOfCategorises.hide(700,'linear','linear');
     login.show(700);
+    alert(`An amount will be deducted ${HistoricalArry[1].books[e.target.id].price} from your account to review your account`)
 }
 // F-8
 function checkInput(){

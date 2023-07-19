@@ -419,6 +419,7 @@ button:hover {
     font-size: 30px;
     font-weight: 900;
     color: rgb(75, 46, 4);
+    line-height: 50px;
 
 }
 
@@ -441,7 +442,7 @@ button:hover {
 
 #books-of-categorises {
     width: 100%;
-    height: 100vh;
+    height: 104vh;
     background-image: url(./picture/eFsiXhx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
