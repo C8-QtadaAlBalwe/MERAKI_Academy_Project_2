@@ -570,12 +570,14 @@ const categoresesBooks=function(e){
         h1_title_4.text(HistoricalArry[0].title)
         HistoricalArry[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
-            <img src="${book.imageSrc}">
-            <button onclick="goToInformationBook()">Inform</button>
-            <button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>
-            </div>`)
+            <img src="${book.imageSrc}"></div>`)
+            const btnInformation=$(`<button id=${i}>Inform</button>`)
+            const btnBuy=$(`<button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>`)
+            
             books_2.append(item_book);
-
+            item_book.append(btnInformation);
+            item_book.append(btnBuy);
+            btnInformation.on('click',goToInformationBook)
         }
     )}else if(e.target.id == 2){
         h1_title_4.text(gamesArray[0].title)
@@ -626,3 +628,29 @@ function checkInput(){
         alert('The book has been purchased. Thank you for using our library')
     }else{alert("Try Again Chick On your Data")}
 }
+function goToInformationBook(e) {
+   const page_info=$(`<div class="page-info">
+   <div class="image-book"><img src="./picture/chimcal book -2.jpg"></div>
+   <div class="line-3"></div>
+   <div class="line-4"></div>
+   <div class="Book-description">
+   <h1>Book Discription</h1>
+   <P>Lorem, ipsum dolor sit amet consectetu</p>
+   </div>
+   <div class="line-button"></div>
+   <button>Back to Home</button>
+   </div>`)
+    
+    shoppingCart.hide(700, "linear", "linear");
+    book_information.show(700, "linear", "linear");
+  }
+
+   const image_book = $(`<div class="image-book">
+      <img src="${HistoricalArry[1].books[e.target.id].imageSrc}">
+      </div>`);
+    const bookDescription = $(`<div class="Book-description"></div>
+      <div class="line-3"></div>
+      <div class="line-4"></div>
+      <h1>Book Discription</h1>
+      <P>${e.target.id.description}</p>
+      </div>`);
