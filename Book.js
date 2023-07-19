@@ -1,3 +1,257 @@
+//========###########============###### Array of books ######==========###########=================//
+const HistoricalArry= [
+    {   
+        title:"Historical",
+        id:"1",
+    },
+        {books: [
+            {
+                id: 0,
+                imageSrc: "./picture/history book -1.jpg",
+                description: "some description about book and author",
+                price: 22+"$",
+            },
+            {
+                id: 1,
+                imageSrc: "./picture/history book -2.jpg",
+                description: "some description about book and author",
+                price: 15+"$",
+            },
+            {
+                id: 2,
+                imageSrc: "./picture/history-3.jpg",
+                description: "some description about book and author",
+                price: 34 +"$",
+            },
+            {
+                id: 3,
+                imageSrc: "./picture/history-4.jpg",
+                description: "some description about book and author",
+                price: 55 +"$",
+            },
+            {
+                id: 4,
+                imageSrc: "./picture/history-5jpg.jpg",
+                description: "some description about book and author",
+                price: 33,
+            },
+            {
+                id: 5,
+                imageSrc: "./picture/history-6.jpg",
+                description: "some description about book and author",
+                price: 22 +"$",
+            },
+            {
+                id: 6,
+                imageSrc: "./picture/history-7.jpg",
+                description: "some description about book and author",
+                price: 64 +"$",
+            },
+            {
+                id: 7,
+                imageSrc: "./picture/history-8.jpg",
+                description: "some description about book and author",
+                price: 23 +"$",
+            },
+            {
+                id: 8,
+                imageSrc: "./picture/history-9.jpg",
+                description: "some description about book and author",
+                price: 11 +"$",
+            },
+        ]
+    }
+    ]
+    const gamesArray=[
+    {
+    title:"games",
+    id:"2",
+    },
+        {books: [
+            {
+                id: 0,
+                imageSrc: "./picture/games book -1.jpg",
+                description: "some description about book and author",
+                price: 10 +"$",
+            },
+            {
+                id: 1,
+                imageSrc: "./picture/games book -2.jpg",
+                description: "some description about book and author",
+                price: 5 +"$",
+            },
+            {
+                id: 2,
+                imageSrc: "./picture/games-3.jpg",
+                description: "some description about book and author",
+                price: 9 +"$",
+            },
+            {
+                id: 3,
+                imageSrc: "./picture/games-4.jpg",
+                description: "some description about book and author",
+                price: 67 +"$",
+            },
+            {
+                id: 4,
+                imageSrc: "./picture/games-5.jpg",
+                description: "some description about book and author",
+                price: 55 +"$",
+            },
+            {
+                id: 5,
+                imageSrc: "./picture/games-6.webp",
+                description: "some description about book and author",
+                price: 45 +"$",
+            },
+            {
+                id: 6,
+                imageSrc: "./picture/games-7.jpg",
+                description: "some description about book and author",
+                price: 34 +"$",
+            },
+            {
+                id: 7,
+                imageSrc: "./picture/games-8.png",
+                description: "some description about book and author",
+                price: 43 +"$",
+            },
+            {
+                id: 8,
+                imageSrc: "./picture/games-9.jpg",
+                description: "some description about book and author",
+                price: 23 +"$",
+            },
+        ]}
+    ]
+    const chimicalArray=[   
+        {
+        title:"chimical",
+        id:"3",
+        },
+        {books: [
+            {
+                id: 0,
+                imageSrc: "./picture/chimcal book  -1.jpg",
+                description: "some description about book and author",
+                price: 27 +"$",
+            },
+            {
+                id: 1,
+                imageSrc: "./picture/chimcal book -2.jpg",
+                description: "some description about book and author",
+                price: 14 +"$",
+            },
+            {
+                id: 2,
+                imageSrc: "./picture/chimical-3.jpg",
+                description: "some description about book and author",
+                price: 37+"$",
+            },
+            {
+                id: 3,
+                imageSrc: "./picture/chimical-4.jpg",
+                description: "some description about book and author",
+                price: 26 +"$",
+            },
+            {
+                id: 4,
+                imageSrc: "./picture/chimical-5.jpg",
+                description: "some description about book and author",
+                price: 24 +"$",
+            },
+            {
+                id: 5,
+                imageSrc: "./picture/chimical-6.jpg",
+                description: "some description about book and author",
+                price: 65 +"$",
+            },
+            {
+                id: 6,
+                imageSrc: "./picture/chimical-7.jpg",
+                description: "some description about book and author",
+                price: 45 +"$",
+            },
+            {
+                id: 7,
+                imageSrc: "./picture/chimical-8.jpg",
+                description: "some description about book and author",
+                price: 52 +"$",
+            },
+            {
+                id: 8,
+                imageSrc: "./picture/chimical-9.jpg",
+                description: "some description about book and author",
+                price:15 +"$",
+            },
+        ]
+    }
+    ]
+    const artsArray=[ 
+        { 
+        title:"Arts",
+        id:"4",
+        },
+        {
+        books: [
+            {
+                id: 0,
+                imageSrc: "./picture/art book -1.jpg",
+                description: "some description about book and author",
+                price: 22 +"$",
+            },
+            {
+                id: 1,
+                imageSrc: "./picture/art-4.jpg",
+                description: "some description about book and author",
+                price: 24 +"$",
+            },
+            {
+                id: 2,
+                imageSrc: "./picture/arts-3.jpg",
+                description: "some description about book and author",
+                price: 53 +"$",
+            },
+            {
+                id: 3,
+                imageSrc: "./picture/arts-5.webp",
+                description: "some description about book and author",
+                price: 13+"$",
+            },
+            {
+                id: 4,
+                imageSrc: "./picture/arts-6.webp",
+                description: "some description about book and author",
+                price: 34 +"$",
+            },
+            {
+                id: 5,
+                imageSrc: "./picture/arts-7.webp",
+                description: "some description about book and author",
+                price: 32 +"$",
+            },
+            {
+                id: 6,
+                imageSrc: "./picture/arts-8.jpg",
+                description: "some description about book and author",
+                price: 13 +"$",
+            },
+            {
+                id: 7,
+                imageSrc: "./picture/arts-9.jpg",
+                description: "some description about book and author",
+                price: 12+"$",
+            },
+            {
+                id: 8,
+                imageSrc: "./picture/book art-2.webp",
+                description: "some description about book and author",
+                price: 9 +"$",
+            },
+            
+        ]
+    },
+]
 const body=$('body');
 //=========================================================================================//
                          //home page//
@@ -308,261 +562,7 @@ function modeDark(){
     home.css('background', 'url("./picture/eFsiXhx.jpg")')
 }
 
-//========###########============###### Array of books ######==========###########=================//
-const HistoricalArry= [
-    {   
-        title:"Historical",
-        id:"1",
-    },
-        {books: [
-            {
-                id: 0,
-                imageSrc: "./picture/history book -1.jpg",
-                description: "some description about book and author",
-                price: 22+"$",
-            },
-            {
-                id: 1,
-                imageSrc: "./picture/history book -2.jpg",
-                description: "some description about book and author",
-                price: 15+"$",
-            },
-            {
-                id: 2,
-                imageSrc: "./picture/history-3.jpg",
-                description: "some description about book and author",
-                price: 34 +"$",
-            },
-            {
-                id: 3,
-                imageSrc: "./picture/history-4.jpg",
-                description: "some description about book and author",
-                price: 55 +"$",
-            },
-            {
-                id: 4,
-                imageSrc: "./picture/history-5jpg.jpg",
-                description: "some description about book and author",
-                price: 33,
-            },
-            {
-                id: 5,
-                imageSrc: "./picture/history-6.jpg",
-                description: "some description about book and author",
-                price: 22 +"$",
-            },
-            {
-                id: 6,
-                imageSrc: "./picture/history-7.jpg",
-                description: "some description about book and author",
-                price: 64 +"$",
-            },
-            {
-                id: 7,
-                imageSrc: "./picture/history-8.jpg",
-                description: "some description about book and author",
-                price: 23 +"$",
-            },
-            {
-                id: 8,
-                imageSrc: "./picture/history-9.jpg",
-                description: "some description about book and author",
-                price: 11 +"$",
-            },
-        ]
-    }
-    ]
 
-    const gamesArray=[
-    {
-    title:"games",
-    id:"2",
-    },
-        {books: [
-            {
-                id: 0,
-                imageSrc: "./picture/games book -1.jpg",
-                description: "some description about book and author",
-                price: 10 +"$",
-            },
-            {
-                id: 1,
-                imageSrc: "./picture/games book -2.jpg",
-                description: "some description about book and author",
-                price: 5 +"$",
-            },
-            {
-                id: 2,
-                imageSrc: "./picture/games-3.jpg",
-                description: "some description about book and author",
-                price: 9 +"$",
-            },
-            {
-                id: 3,
-                imageSrc: "./picture/games-4.jpg",
-                description: "some description about book and author",
-                price: 67 +"$",
-            },
-            {
-                id: 4,
-                imageSrc: "./picture/games-5.jpg",
-                description: "some description about book and author",
-                price: 55 +"$",
-            },
-            {
-                id: 5,
-                imageSrc: "./picture/games-6.webp",
-                description: "some description about book and author",
-                price: 45 +"$",
-            },
-            {
-                id: 6,
-                imageSrc: "./picture/games-7.jpg",
-                description: "some description about book and author",
-                price: 34 +"$",
-            },
-            {
-                id: 7,
-                imageSrc: "./picture/games-8.png",
-                description: "some description about book and author",
-                price: 43 +"$",
-            },
-            {
-                id: 8,
-                imageSrc: "./picture/games-9.jpg",
-                description: "some description about book and author",
-                price: 23 +"$",
-            },
-        ]}
-    ]
-    const chimicalArray=[   
-        {
-        title:"chimical",
-        id:"3",
-        },
-        {books: [
-            {
-                id: 0,
-                imageSrc: "./picture/chimcal book  -1.jpg",
-                description: "some description about book and author",
-                price: 27 +"$",
-            },
-            {
-                id: 1,
-                imageSrc: "./picture/chimcal book -2.jpg",
-                description: "some description about book and author",
-                price: 14 +"$",
-            },
-            {
-                id: 2,
-                imageSrc: "./picture/chimical-3.jpg",
-                description: "some description about book and author",
-                price: 37+"$",
-            },
-            {
-                id: 3,
-                imageSrc: "./picture/chimical-4.jpg",
-                description: "some description about book and author",
-                price: 26 +"$",
-            },
-            {
-                id: 4,
-                imageSrc: "./picture/chimical-5.jpg",
-                description: "some description about book and author",
-                price: 24 +"$",
-            },
-            {
-                id: 5,
-                imageSrc: "./picture/chimical-6.jpg",
-                description: "some description about book and author",
-                price: 65 +"$",
-            },
-            {
-                id: 6,
-                imageSrc: "./picture/chimical-7.jpg",
-                description: "some description about book and author",
-                price: 45 +"$",
-            },
-            {
-                id: 7,
-                imageSrc: "./picture/chimical-8.jpg",
-                description: "some description about book and author",
-                price: 52 +"$",
-            },
-            {
-                id: 8,
-                imageSrc: "./picture/chimical-9.jpg",
-                description: "some description about book and author",
-                price:15 +"$",
-            },
-        ]
-    }
-    ]
-    const artsArray=[ 
-        { 
-        title:"Arts",
-        id:"4",
-        },
-        {
-        books: [
-            {
-                id: 0,
-                imageSrc: "./picture/art book -1.jpg",
-                description: "some description about book and author",
-                price: 22 +"$",
-            },
-            {
-                id: 1,
-                imageSrc: "./picture/art-4.jpg",
-                description: "some description about book and author",
-                price: 24 +"$",
-            },
-            {
-                id: 2,
-                imageSrc: "./picture/arts-3.jpg",
-                description: "some description about book and author",
-                price: 53 +"$",
-            },
-            {
-                id: 3,
-                imageSrc: "./picture/arts-5.webp",
-                description: "some description about book and author",
-                price: 13+"$",
-            },
-            {
-                id: 4,
-                imageSrc: "./picture/arts-6.webp",
-                description: "some description about book and author",
-                price: 34 +"$",
-            },
-            {
-                id: 5,
-                imageSrc: "./picture/arts-7.webp",
-                description: "some description about book and author",
-                price: 32 +"$",
-            },
-            {
-                id: 6,
-                imageSrc: "./picture/arts-8.jpg",
-                description: "some description about book and author",
-                price: 13 +"$",
-            },
-            {
-                id: 7,
-                imageSrc: "./picture/arts-9.jpg",
-                description: "some description about book and author",
-                price: 12+"$",
-            },
-            {
-                id: 8,
-                imageSrc: "./picture/book art-2.webp",
-                description: "some description about book and author",
-                price: 9 +"$",
-            },
-            
-        ]
-    },
-]
 
 // كيف ممكن اصل نوع الاراي بواسطة الفور 
 const categoresesBooks=function(e){
