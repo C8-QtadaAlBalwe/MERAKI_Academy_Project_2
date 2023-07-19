@@ -11,55 +11,56 @@ const HistoricalArry= [
             {
                 id: 0,
                 imageSrc: "./picture/history book -1.jpg",
-                description: "some description about book and author",
+                description: `Winner of the 2019 Financial Times and McKinsey Business Book of the Year Award Winner of the 2019 Royal Society Science Book Prize Data is fundamental to the modern world. From economic development, to healthcare, to education and public policy, we rely on numbers to allocate resources and make crucial decisions. But because so much data fails to take into account gender, because it treats men as the default and women as atypical, bias and discrimination are baked into our systems. And women pay tremendous costs for this bias, in time, money, and often with their lives.
+                Celebrated feminist advocate Caroline`,
                 price: 22+"$",
             },
             {
                 id: 1,
                 imageSrc: "./picture/history book -2.jpg",
-                description: "some description about book and author",
+                description: `A current, constructive, and actionable exploration of today's racial landscape, offering straightforward clarity that readers of all races need to contribute to the dismantling of the racial divide In So You Want to Talk About Race, Editor-at-Large of the Establishment Ijeoma Oluo offers a contemporary, accessible take on the racial landscape in America`,
                 price: 15+"$",
             },
             {
                 id: 2,
                 imageSrc: "./picture/history-3.jpg",
-                description: "some description about book and author",
+                description: `The prescient former New York Times writer delivers an urgent wake-up call to all Americans exposing the alarming rise of anti-Semitism in this country—and explains what we can do to defeat it. WINNER OF THE NATIONAL JEWISH BOOK AWARD • “Stunning . . . Bari Weiss is heroic, fearless, brilliant and big-hearted. Most importantly, she is right.”—Lisa`,
                 price: 34 +"$",
             },
             {
                 id: 3,
                 imageSrc: "./picture/history-4.jpg",
-                description: "some description about book and author",
+                description:` In this explosive book, Suraj Yengde, a first-generation Dalit scholar educated across continents, challenges deep-seated beliefs about caste and unpacks its many layers. He describes his gut-wrenching experiences of growing up in a Dalit basti, the multiple humiliations suffered by Dalits on a daily basis, `,
                 price: 55 +"$",
             },
             {
                 id: 4,
                 imageSrc: "./picture/history-5jpg.jpg",
-                description: "some description about book and author",
-                price: 33,
+                description: `LONGLISTED FOR THE 2019 NATIONAL BOOK AWARDFINALIST, 2020 PULITZER PRIZE IN HISTORYBy the late 1960s and early 1970s, reeling from a wave of urban uprisings, politicians finally worked to end the practice of redlining. Reasoning that the turbulence could be calmed by turning Black city-dwellers into homeowners, they passed the Housing and Urban Development Act of 1968,`,
+                price: 33 +'$',
             },
             {
                 id: 5,
                 imageSrc: "./picture/history-6.jpg",
-                description: "some description about book and author",
+                description:`In the era of colorblindness, it is no longer socially permissible to use race, explicitly, as a justification for discrimination, exclusion, and social contempt. Yet, as legal star Michelle Alexander reveals, today it is perfectly legal to discriminate against convicted criminals in nearly all the ways that it was once legal to discriminate against African Americans.`,
                 price: 22 +"$",
             },
             {
                 id: 6,
                 imageSrc: "./picture/history-7.jpg",
-                description: "some description about book and author",
+                description: `A deeply-reported examination of why "doing what you love" is a recipe for exploitation, creating a new tyranny of work in which we cheerily acquiesce to doing jobs that take over our lives. You're told that if you "do what you love, you'll never work a day in your life."`,
                 price: 64 +"$",
             },
             {
                 id: 7,
                 imageSrc: "./picture/history-8.jpg",
-                description: "some description about book and author",
+                description:  `A deeply-reported examination of why "doing what you love" is a recipe for exploitation, creating a new tyranny of work in which we cheerily acquiesce to doing jobs that take over our lives. You're told that if you "do what you love, you'll never work a day in your life."`,
                 price: 23 +"$",
             },
             {
                 id: 8,
                 imageSrc: "./picture/history-9.jpg",
-                description: "some description about book and author",
+                description:  `As Ferguson, Missouri, erupted in August 2014, and media commentators across the ideological spectrum referred to the angry response of African Americans as 'black rage', historian Carol Anderson wrote a remarkable op-ed in the Washington Post showing that this was, instead,`,
                 price: 11 +"$",
             },
         ]
@@ -74,31 +75,31 @@ const HistoricalArry= [
             {
                 id: 0,
                 imageSrc: "./picture/games book -1.jpg",
-                description: "some description about book and author",
+                description: `From microaggressions to the wage gap, The Memo empowers women of color with actionable advice on challenges and offers a clear path to success.Most business books provide a one-size-fits-all approach to career advice that overlooks the unique barriers that women of color face. In The Memo, Minda Harts offers a much-needed career guide tailored specifically for women of color`,
                 price: 10 +"$",
             },
             {
                 id: 1,
                 imageSrc: "./picture/games book -2.jpg",
-                description: "some description about book and author",
+                description:`Catching Hate O?side is an analysis of the most prominent racist incidents in the history of football and, at the same time, a tribute to the great stars who have taken up arms; it is a collection of ambassadors for diversity and equality. This is a selection of football players,managers, referees, directors and renowned journalists with a person per letter.While the project had humble beginnings in a small corner of south-east Spain (Almería), it is certainly ambitious in spirit. It aims to move readers anywhere in the world, thanks to both the Spanish and English versions`,
                 price: 5 +"$",
             },
             {
                 id: 2,
                 imageSrc: "./picture/games-3.jpg",
-                description: "some description about book and author",
+                description: `In the HR Inner Circle, the private membership club the author runs for smart, ambitious HR Professionals, there are confidential Q&A sessions every few weeks plus a thriving online community. In this book, you’ll find seventy of the most popular questions asked, together with model answers. Topics include: · Working Time and Minimum Wage· GDPR· Contract· Grievances and disciplinaries· Holiday pay· Sickness absence· Discrimination· DismissalExamples of the 70 questions are:What's the law for taking time off for doctor, dentist and other appointments?`,
                 price: 9 +"$",
             },
             {
                 id: 3,
                 imageSrc: "./picture/games-4.jpg",
-                description: "some description about book and author",
+                description: `Zero Discrimination Day is a beautiful lined journal on the occasion of Zero Discrimination Day, plan events, set goals, and get things done, basically write whatever comes to mind.Zero Discrimination Day with a beautiful design; make the perfect notebook gift to Take Notes and Write Down Ideas.Details: 120 Pages 6" * 9" inches `,
                 price: 67 +"$",
             },
             {
                 id: 4,
                 imageSrc: "./picture/games-5.jpg",
-                description: "some description about book and author",
+                description:   ``,
                 price: 55 +"$",
             },
             {
@@ -461,20 +462,10 @@ button_backToHome.on('click',backToHome);
 const shoppingCart=$('<section id="shopping-cart"></section>')
 const title_3=$('<div class="title-3"><div class="line-1"></div><div class="line-2"></div></div>')
 const h1_title_3=$('<h1>Shopping Cart</h1>')
-const books_add=$('<div class="books-added"></div>')
-const sale_book =$('<div class="sale-book"></div>')
-const img_sale_book=$('<img src="./picture/art book -1.jpg">')
-const p_sale_book=$('<p>price:100$</p>')
-const button_undo=$('<button>Back to Home</button>')
 //============= appends =======================//
 body.append(shoppingCart);
 shoppingCart.append(title_3);
 title_3.append(h1_title_3);
-shoppingCart.append(books_add);
-books_add.append(sale_book);
-sale_book.append(img_sale_book);
-sale_book.append(p_sale_book);
-sale_book.append(button_undo);
 //================ other layout css ==================================//
 shoppingCart.hide();
 //===========================================================//
@@ -488,7 +479,6 @@ const bookOfCategorises=$('<section id="books-of-categorises"></section>')
 const title_4=$('<div class="title-4"><div class="line-1"></div><div class="line-2"></div></div>')
 const h1_title_4=$('<h1>Historical</h1>')
 const books_2=$('<div class="books"><div>')
-
 //============= appends =======================//
 body.append(bookOfCategorises);
 bookOfCategorises.append(title_4);
@@ -520,11 +510,6 @@ function goToContactUs(){
     book_information.hide(700,'linear');
     shoppingCart.hide(700,'linear');
 }
-
-function gotologin(){
-    bookOfCategorises.hide(700,'linear','linear');
-    login.show(700);
-}
 function backToHome(){
     book_information.hide(700,'linear','linear');
     home.show(700,'linear','linear');
@@ -541,6 +526,120 @@ function modeDark(){
     home.css('background', 'url("./picture/eFsiXhx.jpg")')
 }
 
+function goToInformationBook_H(e){
+    bookOfCategorises.hide(700,'linear','linear');
+    book_information.show(700,'linear','linear');
+    const page_info=$(`<div class="page-info">
+    <div class="image-book">
+    <img src="${HistoricalArry[1].books[e.target.id].imageSrc}">
+    </div>
+    <div class="line-3"></div>
+    <div class="line-4"></div>
+    <div class="Book-description">
+    <h1>Book Discription</h1>
+    <P>${HistoricalArry[1].books[e.target.id].description}</p>
+    </div>
+    </div>`)
+    
+    book_information.append(page_info)
+    }
+    function goToInformationBook_G(e){
+        bookOfCategorises.hide(700,'linear','linear');
+        book_information.show(700,'linear','linear');
+        const page_info=$(`<div class="page-info">
+        <div class="image-book">
+        <img src="${gamesArray[1].books[e.target.id].imageSrc}">
+        </div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
+        <div class="Book-description">
+        <h1>Book Discription</h1>
+        <P>${gamesArray[1].books[e.target.id].description}</p>
+        </div>
+        </div>`)
+        
+        book_information.append(page_info)
+    }
+    function goToInformationBook_CH(e){
+            bookOfCategorises.hide(700,'linear','linear');
+            book_information.show(700,'linear','linear');
+            const page_info=$(`<div class="page-info">
+            <div class="image-book">
+            <img src="${chimicalArray[1].books[e.target.id].imageSrc}">
+            </div>
+            <div class="line-3"></div>
+            <div class="line-4"></div>
+            <div class="Book-description">
+            <h1>Book Discription</h1>
+            <P>${chimicalArray[1].books[e.target.id].description}</p>
+            </div>
+            </div>`)
+            
+            book_information.append(page_info)
+    }
+    function goToInformationBook_A(e){
+                book_information.show(700,'linear','linear');
+                const page_info=$(`<div class="page-info">
+                <div class="image-book">
+                <img src="${artsArray[1].books[e.target.id].imageSrc}">
+                </div>
+                <div class="line-3"></div>
+                <div class="line-4"></div>
+                <div class="Book-description">
+                <h1>Book Discription</h1>
+                <P>${artsArray[1].books[e.target.id].description}</p>
+                </div>
+                </div>`)
+                
+                book_information.append(page_info)
+    }
+                
+    
+    function addToShoppingCart_H(e){
+        const books_add=$(`<div class="books-added">
+        <div class="sale-book">
+        <img src="${HistoricalArry[1].books[e.target.id].imageSrc}">
+        <p>${HistoricalArry[1].books[e.target.id].price}</p>
+        </div></div>`) 
+        shoppingCart.append(books_add);
+        bookOfCategorises.hide(700,'linear','linear');
+        login.show(700);
+    }
+    function addToShoppingCart_G(e){
+        const books_add=$(`<div class="books-added">
+        <div class="sale-book">
+        <img src="${gamesArray[1].books[e.target.id].imageSrc}">
+        <p>${gamesArray[1].books[e.target.id].price}</p>
+        </div></div>`) 
+        
+        shoppingCart.append(books_add);
+        bookOfCategorises.hide(700,'linear','linear');
+        login.show(700);
+    }
+    function addToShoppingCart_CH(e){
+        const books_add=$(`<div class="books-added">
+        <div class="sale-book">
+        <img src="${chimicalArray[1].books[e.target.id].imageSrc}">
+        <p>${chimicalArray[1].books[e.target.id].price}</p>
+        </div></div>`) 
+        
+        shoppingCart.append(books_add);
+        bookOfCategorises.hide(700,'linear','linear');
+        login.show(700);
+    }
+    function addToShoppingCart_A(e){
+        const books_add=$(`<div class="books-added">
+        <div class="sale-book">
+        <img src="${artsArray[1].books[e.target.id].imageSrc}">
+        <p>${artsArray[1].books[e.target.id].price}</p>
+        </div></div>`) 
+        
+        shoppingCart.append(books_add);
+        bookOfCategorises.hide(700,'linear','linear');
+        login.show(700);
+    }
+    
+
 //========###########============###### Array of books ######==========###########=================//
 const categoresesBooks=function(e){
     if(e.target.id == 1){
@@ -549,12 +648,13 @@ const categoresesBooks=function(e){
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
             const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i></button>`)
         //........................ appends ................................
             books_2.append(item_book);
             item_book.append(btnInformation);
             item_book.append(btnBuy);
             btnInformation.on('click',goToInformationBook_H)
+            btnBuy.on('click',addToShoppingCart_H)
         }
     )}else if(e.target.id == 2){
         h1_title_4.text(gamesArray[0].title)
@@ -562,45 +662,48 @@ const categoresesBooks=function(e){
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
             const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i></button>`)
             
             //........................ appends ................................
             books_2.append(item_book);
             item_book.append(btnInformation);
             item_book.append(btnBuy);
             btnInformation.on('click',goToInformationBook_G)
-
-        }
-    )}else if(e.target.id == 3){
+            btnBuy.on('click',addToShoppingCart_G)
+        })
+    }else if(e.target.id == 3){
         h1_title_4.text(chimicalArray[0].title)
         chimicalArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
             const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i></button>`)
             
             //........................ appends ................................
             books_2.append(item_book);
             item_book.append(btnInformation);
             item_book.append(btnBuy);
             btnInformation.on('click',goToInformationBook_CH)
-
+            btnBuy.on('click',addToShoppingCart_CH)
         }
-    )}else if(e.target.id == 4){
+    )
+}else if(e.target.id == 4){
         h1_title_4.text(artsArray[0].title)
         artsArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
             const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button onclick="gotologin()">BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnBuy=$(`<button id=${i}">BAY<i class="fas fa-shopping-cart"></i></button>`)
             
             //........................ appends ................................
             books_2.append(item_book);
             item_book.append(btnInformation);
             item_book.append(btnBuy);
             btnInformation.on('click',goToInformationBook_A)
+            btnBuy.on('click',addToShoppingCart_A)
         }
-    )}
+        )
+    }
     home.hide(700)
     bookOfCategorises.show(700)
 }
@@ -617,74 +720,4 @@ function checkInput(){
     }else{alert("Try Again Chick On your Data")}
 }
 
-function goToInformationBook_H(e){
-shoppingCart.hide(700,'linear','linear');
-book_information.show(700,'linear','linear');
-const page_info=$(`<div class="page-info">
-<div class="image-book">
-<img src="${HistoricalArry[1].books[e.target.id].imageSrc}">
-</div>
-<div class="line-3"></div>
-<div class="line-4"></div>
-<div class="Book-description">
-<h1>Book Discription</h1>
-<P>${HistoricalArry[1].books[e.target.id].description}</p>
-</div>
-</div>`)
 
-book_information.append(page_info)
-}
-
-function goToInformationBook_G(e){
-    shoppingCart.hide(700,'linear','linear');
-    book_information.show(700,'linear','linear');
-    const page_info=$(`<div class="page-info">
-    <div class="image-book">
-    <img src="${gamesArray[1].books[e.target.id].imageSrc}">
-    </div>
-    <div class="line-3"></div>
-    <div class="line-4"></div>
-    <div class="Book-description">
-    <h1>Book Discription</h1>
-    <P>${gamesArray[1].books[e.target.id].description}</p>
-    </div>
-    </div>`)
-    
-    book_information.append(page_info)
-    }
-    function goToInformationBook_CH(e){
-        shoppingCart.hide(700,'linear','linear');
-        book_information.show(700,'linear','linear');
-        const page_info=$(`<div class="page-info">
-        <div class="image-book">
-        <img src="${chimicalArray[1].books[e.target.id].imageSrc}">
-        </div>
-        <div class="line-3"></div>
-        <div class="line-4"></div>
-        <div class="Book-description">
-        <h1>Book Discription</h1>
-        <P>${chimicalArray[1].books[e.target.id].description}</p>
-        </div>
-        </div>`)
-        
-        book_information.append(page_info)
-        }
-
-        function goToInformationBook_A(e){
-            shoppingCart.hide(700,'linear','linear');
-            book_information.show(700,'linear','linear');
-            const page_info=$(`<div class="page-info">
-            <div class="image-book">
-            <img src="${artsArray[1].books[e.target.id].imageSrc}">
-            </div>
-            <div class="line-3"></div>
-            <div class="line-4"></div>
-            <div class="Book-description">
-            <h1>Book Discription</h1>
-            <P>${artsArray[1].books[e.target.id].description}</p>
-            </div>
-            </div>`)
-            
-            book_information.append(page_info)
-            }
-            
