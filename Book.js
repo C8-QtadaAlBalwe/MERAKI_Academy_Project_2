@@ -270,6 +270,14 @@ const listItem_2=$('<li class="option-nav"><a>Shooping Cart</a></li>');
 const listItem_3=$('<li class="option-nav"><a>Contant Us</a></li>');
 const listItem_4=$('<li class="option-nav"><a>white mode</a></li>');
 const listItem_5=$('<li class="option-nav"><a>mode default</a></li>');
+const bar_icon=$(`<div class="dropdown"><img src="./picture/bar.jpg">
+<div class="dropdown-content">
+<a href="#">Home</a>
+<a href="#">Shooping Cart</a>
+<a href="#">Contant Us</a>
+<a>white mode</a>
+<a>mode default</a>
+</div></div>`)
 //-----------------------(Apppends)--------------------------------------------------------//
 body.append(home);
 home.append(navBar);
@@ -280,6 +288,7 @@ unorderList.append(listItem_2);
 unorderList.append(listItem_3);
 unorderList.append(listItem_4);
 unorderList.append(listItem_5);
+navBar.append(bar_icon);
 
 //**********************(Events)***********************************************************// 
 listItem_2.on('click',goToShopping);
@@ -468,8 +477,7 @@ book_information.hide();
 const shoppingCart=$('<section id="shopping-cart"></section>');
 const title_3=$('<div class="title-3"><div class="line-1"></div><div class="line-2"></div></div>');
 const h1_title_3=$('<h1>Shopping Cart</h1>');
-const button_shopping=$('<button> Back To Home</button>');
-
+const button_shopping=$('<button> Back To Home</button>'); 
 //-----------------------(Apppends)--------------------------------------------------------//
 
 body.append(shoppingCart);
@@ -744,6 +752,7 @@ const categoresesBooks=function(e){
     bookOfCategorises.show(700)
 }
 //**********************(Events)***********************************************************//
+
 button1.on('click',categoresesBooks);
 button2.on('click',categoresesBooks);
 button3.on('click',categoresesBooks);
