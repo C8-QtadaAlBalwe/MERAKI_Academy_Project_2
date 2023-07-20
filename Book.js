@@ -468,16 +468,18 @@ book_information.hide();
 const shoppingCart=$('<section id="shopping-cart"></section>');
 const title_3=$('<div class="title-3"><div class="line-1"></div><div class="line-2"></div></div>');
 const h1_title_3=$('<h1>Shopping Cart</h1>');
+const button_shopping=$('<button> Back To Home</button>');
 
 //-----------------------(Apppends)--------------------------------------------------------//
 
 body.append(shoppingCart);
 shoppingCart.append(title_3);
 title_3.append(h1_title_3);
+title_3.append(button_shopping)
 
 //&&&&&&&&&&&&&&&&&&&&&&&&& Start layout css &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& //
 shoppingCart.hide();
-
+button_shopping.on('click',backToHome)
 //#########################################################################################//
 //#################################(Books Categorises Create )#############################//
 
@@ -520,7 +522,9 @@ function goToContactUs(){
 // F-3
 function backToHome(){
     book_information.hide(700,'linear','linear');
+    shoppingCart.hide(700)
     home.show(700,'linear','linear');
+
 }
 // F-4
 function modeWhite(){
