@@ -371,7 +371,7 @@ button:hover {
     top: 40px;
     background-image: url(./picture/Screenshot_1.png);
     border-radius: 15px;
-    overflow: hidden;
+    overflow:auto;
     box-shadow: 20px 12px 13px #000;
 }
 
@@ -422,7 +422,6 @@ button:hover {
     line-height: 50px;
 
 }
-
 .page-info button {
     position: absolute;
     right: 120px;
@@ -497,7 +496,8 @@ button:hover {
     font-weight: bolder;
     cursor: pointer;
     transition: .4s ease-out;
-    margin-bottom: 5px;
+    margin:0 7px 5px 10px;
+
 }
 
 .item-book button:hover {

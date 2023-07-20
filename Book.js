@@ -463,7 +463,7 @@ book_information.hide();
 
 
 //#########################################################################################//
-//###################################(Sopping Cart Create )################################//
+//###################################(Shopping Cart Create )################################//
 
 const shoppingCart=$('<section id="shopping-cart"></section>');
 const title_3=$('<div class="title-3"><div class="line-1"></div><div class="line-2"></div></div>');
@@ -615,8 +615,7 @@ function goToInformationBook_A(e){
         book_information.append(page_info)
         page_info.append(button_backToHome)
         button_backToHome.on('click',backToHome);            
-}
-                
+}              
 // F-7 (Group have 4 f() )    
 function addToShoppingCart_H(e){
     const books_add=$(`<div class="books-added">
@@ -680,8 +679,8 @@ const categoresesBooks=function(e){
         HistoricalArry[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
-            const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnInformation=$(`<button id="${i}">Information <i class="fas fa-bookmark"></i></button>`)
+            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i>${book.price}</button>`)
 //-----------------------(Apppends)--------------------------------------------------------//        
             books_2.append(item_book);
             item_book.append(btnInformation);
@@ -694,8 +693,8 @@ const categoresesBooks=function(e){
         gamesArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
-            const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnInformation=$(`<button id="${i}">Information <i class="fas fa-bookmark"></i></button>`)
+            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i>${book.price}</button>`)
             
 //-----------------------(Apppends)--------------------------------------------------------//
             books_2.append(item_book);
@@ -709,8 +708,8 @@ const categoresesBooks=function(e){
         chimicalArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
-            const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnInformation=$(`<button id="${i}">Information  <i class="fas fa-bookmark"></i></button>`)
+            const btnBuy=$(`<button id=${i}>BAY<i class="fas fa-shopping-cart"></i>${book.price}</button>`)
             
 //-----------------------(Apppends)--------------------------------------------------------//
             books_2.append(item_book);
@@ -725,8 +724,8 @@ const categoresesBooks=function(e){
         artsArray[1].books.forEach((book,i) =>{
             const item_book=$(`<div class="item-book">
             <img src="${book.imageSrc}"></div>`)
-            const btnInformation=$(`<button id="${i}">Inform</button>`)
-            const btnBuy=$(`<button id=${i}">BAY<i class="fas fa-shopping-cart"></i></button>`)
+            const btnInformation=$(`<button id="${i}">Information<i class="fas fa-bookmark"></i></button>`)
+            const btnBuy=$(`<button id=${i}">BAY<i class="fas fa-shopping-cart"></i>${book.price}</button>`)
             
 //-----------------------(Apppends)--------------------------------------------------------//
             books_2.append(item_book);
